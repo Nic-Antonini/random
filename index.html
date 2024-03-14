@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo Xande</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <br>
+    
+    <h1>De: ETIM 122
+        <br>
+        Para: Alexandre Boyago
+    </h1>
+
+    <br>
+
+    <button onclick="exibir('pt1', 'btn2')" id="btn1" class="btn">LER</button>
+    
+
+
+    <div id="pt1" class="text">
+        Queríamos agradecer ao senhor por ser um ótimo professor e coordenador durante todos esses anos conosco. 
+        Somos gratos por todas as aulas de programação, puxões de orelha e até mesmo pelas aulas de educação financeira KKKKK. 
+    </div>
+
+
+    <button onclick="exibir('pt2', 'btn3')" id="btn2" class="btn" style="display: none;">CONTINUAR</button>
+
+
+
+    <div id="pt2" class="text">
+        Você tem sido o nosso debugger mais confiável ao longo desses anos, não apenas na programação, mas também na vida real.
+        Dessa vez, nossa sala decidiu ir além dos limites do terminal e...
+    </div>
+
+    
+
+    <button onclick="exibir('pt3')" id="btn3" class="btn" style="display: none;">CONTINUAR</button>
+
+
+    <div id="pt3" class="text">
+        Gostaríamos de convidá-lo para ser o paraninfo da nossa formatura. <br> Para responder, basta clicar em um dos botões abaixo:
+
+        <br><br>
+
+        <button onclick="aceitou()" id="yes" class="response">sim</button> 
+        <button onclick="desviar(this)" onmouseover="desviar(this)" id="no" class="response">não</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
